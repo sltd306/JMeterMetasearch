@@ -796,10 +796,10 @@
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Unterlage Hochladen Submit Request" enabled="true">
             <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
               <collectionProp name="HTTPFileArgs.files">
-                <elementProp name="E:\projekte\JMeterMetasearch\Leistungsnachweis.pdf" elementType="HTTPFileArg">
-                  <stringProp name="File.path">E:\projekte\JMeterMetasearch\Leistungsnachweis.pdf</stringProp>
+                <elementProp name="E:\projekte\JMeterMetasearch\file\Leistungsnachweis.pdf" elementType="HTTPFileArg">
+                  <stringProp name="File.path">E:\projekte\JMeterMetasearch\file\Leistungsnachweis.pdf</stringProp>
                   <stringProp name="File.paramname">form[file]</stringProp>
-                  <stringProp name="File.mimetype"></stringProp>
+                  <stringProp name="File.mimetype">application/pdf</stringProp>
                 </elementProp>
               </collectionProp>
             </elementProp>
